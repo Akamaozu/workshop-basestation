@@ -14,15 +14,20 @@ express.get('/', function( req, res ){
 
 socketio.on( 'connection', function( socket ){
 
+  var name;
+
   console.log( 'new socket.io client connection' );
 
   socket.on( 'connection-status-request', function(){    
     socket.emit( 'connection-status', connection_status );
   });
 
-  socket.on( 'file-upload', function( data ){
+  socket.on( 'name', function( requested_name ){
+    name = requested_name;
+  });
 
-    console.log( 'received ' + data.name );
+  socket.on( 'file-upload', function( data ){
+    console.log( 'action=upload satellite=' + name + ' file=' + data.name );
   });
 });
 
