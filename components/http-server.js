@@ -40,7 +40,7 @@ socketio.on( 'connection', function( socket ){
   socket.on( 'file-upload', function( data ){
 
     console.log( 'action=upload satellite=' + name + ' file=' + data.name );
-    socketio.emit( 'new-upload', { uploader: name, content: new Buffer( file.content ).toString('base64') });
+    socketio.emit( 'new-upload', { uploader: name, content: new Buffer( data.content ).toString('base64') });
   });
 });
 
