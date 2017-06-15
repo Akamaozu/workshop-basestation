@@ -5,20 +5,60 @@ html, body {
   font-family: sans-serif;
 }
 
+div {
+  position: relative;
+  box-sizing: border-box;
+}
+
 #uploaded {
 
   width: 60%;
-  margin: 3em auto 0 auto;
+  margin: 5em auto 0 auto;
 }
 
-#uploaded > .upload {
+  #uploaded > .header {
 
-  position: relative;
-  margin-bottom: 1.5em;
-}
+    position: absolute;
+    width: 100%;
+    top: -4.5em;
+    padding: 1em;
+    text-align: center;
+    border-bottom: 2px solid #eee;
+  }
 
-#uploaded > .upload > img {
+    #uploaded > .header > .title {
 
-  max-height: 50vh;
-  max-width: 90%;
-}
+      font-weight: 900;
+      font-size: 1.25em;
+      line-height: .75em;
+      letter-spacing: -1px;
+    }
+
+    #uploaded > .header > .attribution {
+
+      float: left;
+    }
+
+    #uploaded > .header > .launch-btn {
+
+      float: right;
+    }
+
+  #uploaded > .upload {
+
+    margin-bottom: 1.5em;
+  }
+
+    #uploaded > .upload > img {
+
+      max-height: 50vh;
+      max-width: 90%;
+    }
+
+  #uploaded > .footer {
+
+    background-color: #eee;
+    color: #bbb;
+    padding: 1em;
+    text-align: center;
+  }
