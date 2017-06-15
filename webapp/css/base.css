@@ -12,6 +12,13 @@ html, body {
 }
 
 #uploaded > .upload {
-
+  
+  position: relative;
   margin-bottom: 1.5em;
+}
+
+#uploaded > .upload > img {
+
+  max-height: 50vw;
+  max-width: 100%;
 }
