@@ -7,7 +7,7 @@ var citizen = require('supe'),
 
     connection_status = false;
 
-server.listen( process.env.PORT || 80 );
+server.listen( process.env.PORT || 5000 );
 
 express.use( require('express').static( path.join( __dirname, '..', 'webapp' ) ) );
 
