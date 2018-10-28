@@ -12,7 +12,7 @@ div {
 
 #uploaded {
 
-  width: 60%;
+  width: 64%;
   margin: 5em auto 0 auto;
 }
 
@@ -55,14 +55,10 @@ div {
       max-height: 30vh;
     }
 
-    #uploaded > .upload:first-of-type {
-      margin: 0 4vw 4vw 0;
+    #uploaded > .upload:first-of-type > img {
+      max-height: 60vh;
+      max-width: 60vw;
     }
-    
-      #uploaded > .upload:first-of-type > img {
-        max-height: 60vh;
-        max-width: 60vw;
-      }
 
   #uploaded > .footer {
 
