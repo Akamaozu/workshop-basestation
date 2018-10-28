@@ -46,19 +46,19 @@ div {
 
   #uploaded > .upload {
 
-    margin-bottom: 1.5em;
+    margin: 0 1.5em 1.5em 0;
     display: inline-block;
     transition: width 1s ease-in-out, height 1s ease-in-out;
   }
 
     #uploaded > .upload > img {
-      max-width: 45%;
-      max-height: 25vh;
+      max-width: 20vw;
+      max-height: 20vh;
     }
 
       #uploaded > .upload:first-of-type > img {
-        max-height: 50vh;
-        max-width: 90%;
+        max-height: 40vh;
+        max-width: 40vw;
       }
 
   #uploaded > .footer {
