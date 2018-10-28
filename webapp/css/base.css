@@ -18,7 +18,7 @@ div {
 @media only screen and (max-width: 768px) {
   #uploaded {
     width: 90%;
-    margin-top: 8em;
+    margin-top: 9em;
   }
 }
 
@@ -30,12 +30,6 @@ div {
     text-align: center;
     border-bottom: 2px solid #eee;
   }
-
-    @media only screen and (max-width: 768px) {
-      #uploaded > .header {
-        margin-top: -8em;
-      }
-    }
 
     #uploaded > .header > .title {
 
