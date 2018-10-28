@@ -48,7 +48,7 @@ div {
 
     margin: 0 1.5em 1.5em 0;
     display: inline-block;
-    transition: width 1s ease-in-out, height 1s ease-in-out;
+    transition: max-width 1s ease-in-out, max-height 1s ease-in-out;
   }
 
     #uploaded > .upload > img {
