@@ -45,8 +45,7 @@ div {
     }
 
   #uploaded > .upload {
-
-    margin: 0 1.5em 1.5em 0;
+    margin: 0 2vw 2vw 0;
     display: inline-block;
     transition: max-width 1s ease-in-out, max-height 1s ease-in-out;
   }
@@ -56,6 +55,10 @@ div {
       max-height: 30vh;
     }
 
+    #uploaded > .upload:first-of-type {
+      margin: 0 4vw 4vw 0;
+    }
+    
       #uploaded > .upload:first-of-type > img {
         max-height: 60vh;
         max-width: 60vw;
