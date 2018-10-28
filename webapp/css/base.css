@@ -73,13 +73,14 @@ div {
   }
 
     #uploaded > .upload > img {
-      max-width: 30vw;
-      max-height: 30vh;
+      max-width: 20vw;
+      max-height: 20vh;
     }
 
     #uploaded > .upload:first-of-type > img {
-      max-height: 60vh;
-      max-width: 60vw;
+      max-height: 40vh;
+      max-width: 40vw;
+      margin-right: 0;
     }
 
     @media only screen and (max-width: 768px) {
