@@ -52,14 +52,13 @@ div {
   }
 
     #uploaded > .upload > img {
-
-      max-height: 50vh;
-      max-width: 90%;
+      max-width: 45%;
+      max-height: 25vh;
     }
 
       #uploaded > .upload:first-of-type > img {
-        max-width: 45%;
-        max-height: 25vh;
+        max-height: 50vh;
+        max-width: 90%;
       }
 
   #uploaded > .footer {
