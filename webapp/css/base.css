@@ -1,7 +1,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  font-size: 16px;
+  font-size: 14px;
   font-family: sans-serif;
 }
 
@@ -47,6 +47,8 @@ div {
   #uploaded > .upload {
 
     margin-bottom: 1.5em;
+    display: inline-block;
+    transition: width 1s ease-in-out, height 1s ease-in-out;
   }
 
     #uploaded > .upload > img {
@@ -54,6 +56,11 @@ div {
       max-height: 50vh;
       max-width: 90%;
     }
+
+      #uploaded > .upload:first-of-type > img {
+        max-width: 45%;
+        max-height: 25vh;
+      }
 
   #uploaded > .footer {
 
