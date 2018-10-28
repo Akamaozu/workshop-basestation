@@ -82,6 +82,14 @@ div {
       max-width: 60vw;
     }
 
+    @media only screen and (max-width: 768px) {
+      #uploaded > .upload > img {
+        max-width: 90vw;
+        display: block;
+        margin: 0 0 5vh 0;
+      }
+    }
+
   #uploaded > .footer {
 
     background-color: #eee;
