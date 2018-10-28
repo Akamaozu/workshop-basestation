@@ -11,9 +11,14 @@ div {
 }
 
 #uploaded {
-
   width: 64%;
   margin: 5em auto 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+  #uploaded {
+    width: 90%;
+  }
 }
 
   #uploaded > .header {
@@ -42,6 +47,16 @@ div {
     #uploaded > .header > .launch-btn {
 
       float: right;
+    }
+
+    @media only screen and (max-width: 768px) {
+      #uploaded > .header > .title,
+      #uploaded > .header > .launch-btn,
+      #uploaded > .header > .attribution {
+        width: 100%;
+        padding: .5em;
+        box-sizing: border-box;
+      }
     }
 
   #uploaded > .upload {
