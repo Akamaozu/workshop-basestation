@@ -78,8 +78,8 @@ div {
     }
 
     #uploaded > .upload:first-of-type > img {
-      max-height: 40vh;
-      max-width: 40vw;
+      max-height: 56vh;
+      max-width: 56vw;
       margin-right: 0;
     }
 
