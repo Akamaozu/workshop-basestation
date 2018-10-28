@@ -31,6 +31,13 @@ div {
     border-bottom: 2px solid #eee;
   }
 
+    @media only screen and (max-width: 768px) {
+      #uploaded > .header {
+        width: 90%;
+        top: -9em;
+      }
+    }
+
     #uploaded > .header > .title {
 
       font-weight: 900;
@@ -49,15 +56,15 @@ div {
       float: right;
     }
 
-    @media only screen and (max-width: 768px) {
-      #uploaded > .header > .title,
-      #uploaded > .header > .launch-btn,
-      #uploaded > .header > .attribution {
-        width: 100%;
-        padding: .5em;
-        box-sizing: border-box;
+      @media only screen and (max-width: 768px) {
+        #uploaded > .header > .title,
+        #uploaded > .header > .launch-btn,
+        #uploaded > .header > .attribution {
+          width: 100%;
+          padding: .5em;
+          box-sizing: border-box;
+        }
       }
-    }
 
   #uploaded > .upload {
     margin: 0 2vw 2vw 0;
