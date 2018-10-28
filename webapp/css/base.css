@@ -87,9 +87,9 @@ div {
         margin: 0 0 5vh 0;
       }
 
-      #uploaded > .upload > img {
-        width: 80vw;
-        display: block;
+      #uploaded > .upload > img,
+      #uploaded > .upload:first-of-type > img {
+        width: 90vw;
       }
     }
 
