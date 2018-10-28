@@ -18,11 +18,11 @@ div {
 @media only screen and (max-width: 768px) {
   #uploaded {
     width: 90%;
+    margin-top: 8em;
   }
 }
 
   #uploaded > .header {
-
     position: absolute;
     width: 100%;
     top: -4.5em;
@@ -30,6 +30,12 @@ div {
     text-align: center;
     border-bottom: 2px solid #eee;
   }
+
+    @media only screen and (max-width: 768px) {
+      #uploaded > .header {
+        margin-top: -8em;
+      }
+    }
 
     #uploaded > .header > .title {
 
