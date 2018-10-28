@@ -73,13 +73,12 @@ div {
   }
 
     #uploaded > .upload > img {
-      max-width: 20vw;
-      max-height: 20vh;
+      width: 19.33vw;
     }
 
     #uploaded > .upload:first-of-type > img {
-      max-height: 56vh;
-      max-width: 56vw;
+      max-height: 40.5vh;
+      max-width: 40.5vw;
       margin-right: 0;
     }
 
