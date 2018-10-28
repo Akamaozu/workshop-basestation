@@ -88,8 +88,7 @@ div {
       }
 
       #uploaded > .upload > img {
-        max-width: 80vw;
-        max-height: 80vh;
+        width: 80vw;
         display: block;
       }
     }
