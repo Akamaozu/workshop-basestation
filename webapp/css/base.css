@@ -66,6 +66,7 @@ div {
     }
 
   #uploaded > .upload {
+    float: left;
     margin: 0 2vw 2vw 0;
     display: inline-block;
   }
