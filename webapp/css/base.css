@@ -68,15 +68,15 @@ div {
   #uploaded > .upload {
     margin: 0 2vw 2vw 0;
     display: inline-block;
-    transition: width 1s ease-in-out, height 1s ease-in-out;
   }
 
     #uploaded > .upload > img {
-      width: 19.33vw;
+      width: 19vw;
+      transition: width 1s ease-in-out, height 1s ease-in-out;
     }
 
     #uploaded > .upload:first-of-type > img {
-      width: 40.5vw;
+      width: 40vw;
       margin-right: 0;
     }
 
