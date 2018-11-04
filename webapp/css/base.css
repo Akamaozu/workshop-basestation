@@ -97,5 +97,8 @@ div {
     background-color: #eee;
     color: #bbb;
     padding: 1em;
+    width: 100%;
+    overflow: hidden;
     text-align: center;
+    margin-bottom: 1em;
   }
