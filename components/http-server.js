@@ -37,10 +37,16 @@ socketio.on( 'connection', function( socket ){
     name = requested_name;
   });
 
+  socket.on('current-time',function(data){
+    socketio.emit( 'display-time',data  );
+
+  } )
+
   socket.on( 'file-upload', function( data ){
 
     console.log( 'action=upload satellite=' + name + ' file=' + data.name );
-    socketio.emit( 'new-upload', { uploader: name, content: new Buffer( data.content ).toString('base64') });
+    socketio.emit( 'new-upload', { uploader: name, content: new Buffer( data.content ).toString('base64')
+  ,timestamp:data.timestamp });
   });
 });
 

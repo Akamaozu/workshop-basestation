@@ -13,6 +13,11 @@ div {
 #uploaded {
   width: 64%;
   margin: 5em auto 0 auto;
+  position: relative;
+}
+#uploaded .our-time{
+  position: absolute;
+  top: 0;
 }
 
 @media only screen and (max-width: 768px) {
@@ -69,6 +74,7 @@ div {
     float: left;
     margin: 0 2vw 2vw 0;
     display: inline-block;
+    margin-top: 2rem;
   }
 
     #uploaded > .upload > img {
